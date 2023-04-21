@@ -1,0 +1,36 @@
+.chart {
+  margin-left: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.system {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 50px;
+  width: 80%;
+  overflow: hidden;
+  align-items: center;
+
+}
+
+.measure {
+  border-right: 2px solid black;
+  /* border: solid black 1px; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  font-size: 20px;
+  padding-left: 5px;
+  
+  
+}
+
+.metric {
+  border: solid black 4px;
+  max-width:fit-content;
+}
